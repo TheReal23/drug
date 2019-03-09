@@ -1,0 +1,35 @@
+13:
+    Item_Information:
+        Item_Name: "&f13"
+        Item_Type: 159
+        Item_Lore: "&f13."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Subtype: 40-1-NONE-0
+        Projectile_Damage: 30
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 13
+        Reload_Bullets_Individually: true
+        Reload_Duration: 8
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 3
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 5
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-159
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
