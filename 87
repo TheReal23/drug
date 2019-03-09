@@ -1,0 +1,45 @@
+87:
+    Item_Information:
+        Item_Name: "&087"
+        Item_Type: 49
+        Item_Lore: "&0Obsidien."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 87
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: false
+        No_Recoil: true
+        Bullet_Spread: 0.75
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Duration: 47
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: DOOR_OPEN-1-2-4,DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 0.5
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-49
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
